@@ -1,0 +1,148 @@
+/*
+ Created : 04 Jan 2020
+ Author: UI/UX - meem Team
+*/
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+ 
+@media (max-width: 768px) { 
+
+ html, body { 
+ width: auto !important; 
+ overflow-x: hidden !important; 
+ } 
+ .container { 
+ overflow: hidden; 
+ } 
+ html, body { 
+ width: auto !important; 
+ overflow-x: hidden !important; 
+ } 
+
+ #header #logo h1 { 
+ font-size: 28px; 
+ margin-top: 0; 
+ } 
+ #header #logo img { 
+ max-height: 40px; 
+ } 
+
+ 
+
+
+ } 
+ 
+
+@media (max-height: 768px) { 
+ #intro .intro-text { 
+ 
+ } 
+ } 
+
+@media (max-width: 768px) { 
+ #intro .intro-text { 
+ padding: 0 50px; 
+ letter-spacing: -3px; 
+ } 
+ } 
+ 
+@media (max-width: 768px) { 
+ #intro h2 { 
+ font-size: 2.6rem; 
+ line-height:2.4rem; 
+ } 
+ } 
+ 
+
+@media (max-width: 768px) { 
+ #intro p { 
+ font-size: 16px; 
+ line-height: 24px; 
+ margin-bottom: 20px; 
+ } 
+ 
+ #intro .product-screens { 
+ height: 430px; 
+ } 
+ #intro .product-screens .product-screen-1 { 
+ height: 400px; 
+ } 
+ #intro .product-screens .product-screen-2 { 
+ height: 330px; 
+ } 
+ #intro .product-screens .product-screen-3 { 
+ height: 260px; 
+ } 
+ } 
+
+@media (max-width: 767px) { 
+ #intro .product-screens { 
+ height: 400px; 
+ } 
+ #intro .product-screens .product-screen-1 { 
+ position: static; 
+ } 
+ #intro .product-screens .product-screen-2, #intro .product-screens .product-screen-3 { 
+ display: none; 
+ } 
+ } 
+
+@media (max-width: 767px) and (max-height: 639px) { 
+ #intro .product-screens { 
+ height: 300px; 
+ } 
+ #intro .product-screens .product-screen-1 { 
+ position: static; 
+ } 
+ #intro .product-screens .product-screen-2, #intro .product-screens .product-screen-3 { 
+ display: none; 
+ } 
+ } 
+ 
+
+@media (max-width: 768px) { 
+ #nav-menu-container { 
+ display: none; 
+ } 
+ 
+ #mobile-nav-toggle { 
+ display: inline; 
+ } 
+ 
+ #about .about-img { 
+ height: auto; 
+ } 
+ #about .about-img img { 
+ margin-left: 0; 
+ padding-bottom: 30px; 
+ } 
+ } 
+
+
+ /* New styles 16Jan 2020 */
+
+@media (max-width: 768px) { 
+ #faq #faq-list a { 
+ font-size: 18px; 
+ } 
+ #faq #faq-list i { 
+ top: 13px; 
+ } 
+ } 
+
+ @media (max-width: 414px) { 
+ 
+ 
+ #intro .intro_emoji { 
+ width: 82%; 
+ right: -74px; 
+ } 
+ #intro h2 { 
+ font-size: 2.7rem; 
+ line-height: 2.5rem; 
+ margin: 20px 0; 
+ padding: 0; 
+ }
+ 
+ } 
